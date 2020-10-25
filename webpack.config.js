@@ -7,16 +7,16 @@ module.exports = {
   mode: mode,
   devtool: mode === 'production' ? false : 'inline-source-map',
   entry: {
-    './public/assets/js/app': './src/index.jsx'
+    app: './src/index.tsx'
   },
   output: {
     filename: '[name].js',
-    path: path.join(__dirname, './')
+    path: path.join(__dirname, './public/assets/js/')
   },
   module: {
     rules: [
       {
-        test: /\.js$|\.jsx$/,
+        test: /\.ts$|\.tsx$/,
         exclude: /node_modules/,
         loader: 'babel-loader'
       }
@@ -26,7 +26,7 @@ module.exports = {
     alias: {
       '~': path.resolve(__dirname, './src')
     },
-    extensions: ['.js', '.jsx']
+    extensions: ['.ts', '.tsx', '.js']
   },
   devServer: {
     open: false,
