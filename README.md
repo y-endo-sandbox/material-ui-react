@@ -26,7 +26,7 @@ propsは公式のComponentAPIページで確認できる。翻訳はされてい
 ・ボタン
 https://material-ui.com/ja/api/button/
 
-あとはシステムページに載っているコンポーネント共通のpropsとか  
+あとはシステムページに載っているspacingとか  
 https://material-ui.com/ja/system/basics/
 
 ### スタイルのカスタマイズ
