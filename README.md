@@ -158,12 +158,6 @@ https://material-ui.com/ja/discover-more/showcase/
 あとは適当にコンポーネントを見て使いたいものを配置したりする、機能がめっちゃ多いので大抵のことはできると思う。  
 アコーディオンとか動きがあるものも公式サイトからソースコードのコピーができるので、コピペすればいいと思う。超簡単  
 https://material-ui.com/components/accordion/  
-
-### 雑記
-#### webpack v5
-webpack@5,webpack-cli@4でwebpack-dev-serverの起動コマンドが変わったのと  
-オートリロードがなんか良くわからんけど効かない。  
-面倒だったので取り敢えず4に戻した。
-
-#### Googleのリンク
-最近ググったあとにリンク飛ぶとブランクになってるのが若干うっとうしい
+実務で使うなら管理画面の作成とか？  
+テンプレ  
+https://material-ui.com/getting-started/templates/
